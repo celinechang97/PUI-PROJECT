@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BunBun Bakery</title>
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bunbun.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+	<!-- NAV BAR -->
+	<ul>
+		<li class="logo-name"><a href="homepage.html">bunbun <br> BAKERY</a></li>
+  		<li class="shopping-cart"><a href=""><i class="material-icons">shopping_cart</i></a></li>
+  		<li><a href="contact.html">CONTACT</a></li>
+  		<li><a href="dealshome.html">DEALS</a></li>
+  		<li class="browse-html"><a href="browse.html">BUNS</a></li>
+	</ul>
+
+	<!-- CONTENT -->
+	<div class="container">
+		<p><a href="browse.html"> &lt; Back to Buns </a></p>
+		<!-- LEFT SIDE - IMAGE GALLERY-->
+		<div class="detail-column">
+			<div class="slideshow-container">
+				<div class="mySlides">
+				  <img class="cinbun" src="cinbun1.jpeg" alt="cinnamon buns">
+				</div>
+
+				<div class="mySlides">
+				  <img class="cinbun smaller-pic" src="cinbun2.jpeg" alt="cinnamon buns">
+				</div>
+
+				<div class="mySlides">
+				  <img class="cinbun smaller-pic" src="cinbun3.jpeg" alt="cinnamon buns">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+			<div class="dots">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			</div>
+		</div>
+
+		<!-- RIGHT SIDE: DESCRIPTION -->
+		<div class="detail-column right-col">
+			<h1> Original <span class="price-bun"> $3.50 </span></h1>
+			<div class="rating"> 
+				<i class="material-icons">favorite</i>
+				<i class="material-icons">favorite</i>
+				<i class="material-icons">favorite</i>
+				<i class="material-icons">favorite</i>
+				<i class="material-icons">favorite</i>
+				<span>5/5 rating</span>
+			</div>
+			<h3> Our signature cinnamon bun filled with the perfect ratio of cinnamon and sugar </h3>
+			
+			<h2> Number of Buns </h2>
+			<div class="bunnumgroup">
+				<div class="bunnum"> 1 </div>
+				<div class="bunnum"> 3 </div>
+			</div>
+			<div class="bunnumgroup">
+				<div class="bunnum"> 6 </div>
+				<div class="bunnum"> 12 </div>
+			</div>
+
+
+			<h2 class="addbreak"> Type of Glaze </h2>
+			<div class="glaze"> None </div>
+			<div class="glaze"> Sugar-Milk </div>
+			<div class="glaze"> Vanilla-Milk </div>
+			<div class="glaze"> Double Chocolate </div>
+
+			<div class="add-to-cart"> Add to Cart </div>
+		</div>
+	</div>
+
+</body>
+<script src="bunbun.js"></script>
+</html>
