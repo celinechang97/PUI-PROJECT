@@ -513,7 +513,7 @@ input[type=text] {
   box-sizing: border-box;
 }
 
-input[type=text].comment-suggestion-box{
+input[type=text]#comments-sugg{
 	padding: 100px 20px;
 }
 
